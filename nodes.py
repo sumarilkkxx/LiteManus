@@ -7,7 +7,7 @@ from state import State
 from prompts import *
 from tools import *
 
-llm = ChatOpenAI(model="**", temperature=0.0, base_url='**', api_key='**')
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.0, base_url='**', api_key='**')
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
