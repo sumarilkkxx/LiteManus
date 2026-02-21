@@ -21,7 +21,7 @@
 
 ## 🏗 架构与工作流程
 
-本项目实现了一个 LangGraph 状态机工作流（与下图架构图一致）：
+本项目实现了一个 LangGraph 状态机工作流：
 
 <p align="center">
   <img src="image.png" alt="架构图" width="300" />
@@ -64,21 +64,6 @@
 - 写入 `workspace/report.md`。
 - 使用标准 Markdown 语法嵌入图片：
   - `![标题](path/to/image.png)`
-
----
-
-## 📁 项目结构（常见示例）
-
-> 你的实际仓库结构可能略有差异，但一般遵循如下组织方式：
-
-```
-LiteManus/
-├─ workspace/               # 运行输出（生成文件、图片、报告等）
-│  └─ report.md             # 最终 Markdown 报告
-├─ graph.py                 # LangGraph 工作流入口示例
-├─ requirements.txt         # Python 依赖
-└─ README.md
-```
 
 ---
 

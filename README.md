@@ -73,21 +73,6 @@ This project implements a LangGraph state-machine workflow (as shown in the diag
 
 ---
 
-## 📁 Project Structure (Common Example)
-
-> Your actual repository structure may vary slightly, but it typically follows this layout:
-
-```
-LiteManus/
-├─ workspace/               # runtime outputs (generated files, images, reports, etc.)
-│  └─ report.md             # final Markdown report
-├─ graph.py                 # example entry for the LangGraph workflow
-├─ requirements.txt         # Python dependencies
-└─ README.md
-```
-
----
-
 ## 🚀 Installation
 
 ### 1) Create and activate a virtual environment (recommended)
